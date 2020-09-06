@@ -1,0 +1,391 @@
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    header .banner-hero-area2 img {
+        margin-left: 10%;
+    }
+    header .banner-hero-area {
+        padding-top: 10%;
+    }
+    header .banner-hero-area h1 {
+        font-size: 58px;
+        padding-right: 22%;
+    }
+    header .banner-hero-area h1 span {
+        font-size: 48px;
+    }
+    header .banner-hero-area p {
+        font-size: 20.17px;
+    }
+    .section-1 {
+        background-position: top 32% left ,top 25% right 6%;
+    }
+    .section-1 .box-1 p, .section-1 .box-1-color p {
+        font-size: 22.52px;
+    }
+    .section-1 h2 {
+        font-size: 46.12px;
+    }
+    .section-2 .video-box {
+        width: auto; 
+    }
+    .section-2 .section-2-hero-area h2 {
+        padding-right: 22%;
+    }
+    .section-3 h2 {
+        padding: 0px 18%;
+    }
+    .btn {
+        padding: 10px 36px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    section {
+        padding-top: 85px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #ccc; 
+    }
+    header {
+        background-position: top right;
+    }
+    header .banner-hero-area2 img {
+        margin-top: 12px;
+        width: auto; 
+        margin-left: 0; 
+    }
+    header .banner-hero-area h1 {
+        font-size: 52px;
+        padding-right: 0; 
+    }
+    header .banner-hero-area h1 span {
+        font-size: 46px;
+    }
+    header .banner-hero-area p {
+        font-size: 19.17px;
+    }
+    .section-1 {
+        background-position: top 30% left ,top 18% right 3%;
+    }
+    .section-1 h2 {
+        font-size: 48.12px;
+    }
+    .section-1 .box-1 p, .section-1 .box-1-color p {
+        font-size: 16.52px;
+    }
+    .section-2 .section-2-hero-area {
+        margin-top: 0px;
+    }
+    .section-2 .video-box {
+        width: auto; 
+    }
+    .section-2 .section-2-hero-area h2 {
+        font-size: 42.5px;
+        padding-right: 0; 
+    }
+    .section-2 .section-2-hero-area p {
+        font-size: 16.2px;
+    }
+    .section-3 h2 {
+        padding: 0 ; 
+    }
+    .section-3 .section-3-hero-area {
+        margin-top: 0px;
+    }
+    
+    .section-3 .item .card p {
+        font-size: 14px;
+    }
+    .section-3 .section-3-hero-area p {
+        font-size: 16px;
+    }
+    .section-3 .item .card h3 {
+        font-size: 17px;
+        padding: 15px 0px;
+    }
+    .section-4 h2 {
+        font-size: 48px;
+        padding: 0 ;
+    }
+    .btn {
+        padding: 10px 15px;
+    }
+    footer .footer-box h2 {
+        margin: 0; 
+        font-size: 25px;
+    }
+    footer .footer-box .list-group .list-group-item {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    section {
+        padding-top: 65px;
+    }
+    .navbar-light .navbar-brand {
+        width: 60%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #ccc; 
+    }
+    header {
+        background-image:none; 
+        height: auto;
+    }
+    header .banner-hero-area {
+        position:unset;
+        text-align: center;
+    }
+    .section-1, .section-2, .section-3, .section-4 {
+        background:none;
+    }
+    header .banner-hero-area h1 {
+        padding-right:0; 
+    }
+    header .banner-hero-area img {
+        left: -41%;
+    }
+    header .banner-hero-area2 img {
+        margin-top: 12px; 
+         width: auto; 
+        margin-left: 0; 
+    }
+    .section-1 h2 {
+        font-size: 46.12px;
+    }
+    .section-1 .icon-1, .section-1 .icon-2, .section-1 .icon-3 {
+        margin: 0 auto;
+        display: block;
+    }
+    .section-1 .box-1, .section-1 .box-1-color{
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .section-2 .video-box {
+        width: 100%; 
+        float: none;
+        position: unset;
+    }
+    .section-2 .section-2-hero-area {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .section-2 .section-2-hero-area h2, .section-2 .section-2-hero-area p {
+        padding-right: 0; 
+    }
+    .section-3 h2 {
+        font-size: 48px;
+        padding: 0; 
+    }
+    .section-3 .section-3-hero-area {
+        margin-top: 0; 
+        text-align: center;
+    }
+    .section-3 .button {
+        margin: 15px 0;
+    }
+    .section-3 .item .card h3 {
+        padding: 15px 0px;
+    }
+    .section-4 h2 {
+        font-size: 48px;
+        padding: 0;
+    }
+    .btn-control {
+        width:auto; 
+        margin: 0 5%;
+    }
+    .btn {
+        padding: 10px 28px;
+    }
+    footer .footer-box {
+        text-align: center;
+    }
+    footer .footer-box .footer-icon {
+        padding: 0px 5%;
+    }
+ }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    section {
+        padding-top: 65px;
+    }
+    .navbar-light .navbar-brand {
+        width: 60%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #ccc; 
+    }
+    header .banner-social-icon a {
+        color: #ccc;
+        padding: 0 12px;
+    }
+    header {
+        background-image:none; 
+        height: auto;
+    }
+    header .banner-hero-area {
+        position:unset; 
+    }
+    header .banner-hero-area h1 {
+        font-size: 65px;
+        padding-right: 0;
+        text-align: center;
+    }
+    header .banner-hero-area h1 span {
+        font-size: 58px;
+    }
+    header .banner-hero-area p {
+        font-size: 32.17px;
+        padding: 10px 0;
+        text-align: center;
+    }
+    header .banner-hero-area .button, .section-3 .section-3-hero-area p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    header .banner-hero-area2 img {
+        margin-top: 12px;
+        display: block;
+        margin: 0 auto;
+    }
+    .section-1, .section-2, .section-3, .section-4 {
+        background:none;
+    }
+    .section-1 h2 {
+        font-size: 48.12px;
+    }
+    .section-1 .icon-1, .section-1 .icon-2, .section-1 .icon-3 {
+        margin: 0 auto;
+        display: block;
+    }
+    .section-1 .box-1, .section-1 .box-1-color{
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .section-2 .video-box {
+        width: 100%; 
+        float: none;
+        position: unset;
+    }
+    .section-2 .section-2-hero-area {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .section-2 .section-2-hero-area h2, .section-2 .section-2-hero-area p {
+        padding-right:0; 
+    }
+    .section-3 h2 {
+        font-size: 48px;
+        padding: 0; 
+        margin-bottom: 0; 
+    }
+    .section-3 .button{
+        text-align: center;
+        margin: 15px 0;
+    }
+    .section-4 h2 {
+        font-size: 48px;
+        padding: 0 ;
+    }
+    .btn-control {
+        width:auto; 
+        margin: 0 5%;
+    }
+    .btn {
+        padding: 10px 28px;
+    }
+    footer .footer-box {
+        text-align: center;
+    }
+    footer .footer-box .footer-icon {
+        padding: 0px 5%;
+    }
+ }
+ @media (max-width: 574.98px){
+    header .banner-hero-area h1 {
+        font-size: 48px;
+    }
+    header .banner-hero-area h1 span {
+        font-size: 36px;
+    }
+    header .banner-hero-area p {
+        font-size: 18.17px;
+    }
+    .section-1 h2 {
+        font-size: 32.12px;
+    }
+    .section-1 .box-1 p, .section-1 .box-1-color p {
+        font-size: 16.52px;
+    }
+    .section-2 .section-2-hero-area h2 {
+        font-size: 38.5px;
+    }
+    .section-2 .section-2-hero-area p {
+        font-size: 16.2px;
+    }
+    .section-3 h2 {
+        font-size: 36px;
+    }
+    .section-3 .section-3-hero-area p {
+        font-size: 16px;
+    }
+    .section-3 .item .card h3 {
+        font-size: 16px;
+    }
+    .section-3 .item .card p {
+        padding: 7px;
+        font-size: 12px;
+        margin: 0;
+    }
+    .section-4 h2 {
+        font-size: 28px;
+    }
+ }
+
+ @media (max-width: 320px) {
+    header .banner-hero-area h1 {
+        font-size: 48px;
+    }
+    header .banner-hero-area h1 span {
+        font-size: 36px;
+    }
+    header .banner-hero-area p {
+        font-size: 18.17px;
+    }
+    .section-1 h2 {
+        font-size: 32.12px;
+    }
+    .section-1 .box-1 p, .section-1 .box-1-color p {
+        font-size: 16.52px;
+    }
+    .section-2 .section-2-hero-area h2 {
+        font-size: 38.5px;
+    }
+    .section-2 .section-2-hero-area p {
+        font-size: 16.2px;
+    }
+    .section-3 h2 {
+        font-size: 36px;
+    }
+    .section-3 .section-3-hero-area p {
+        font-size: 16px;
+    }
+    .section-3 .item .card h3 {
+        font-size: 16px;
+    }
+    .section-3 .item .card p {
+        padding: 7px;
+        font-size: 12px;
+        margin: 0;
+    }
+    .section-4 h2 {
+        font-size: 28px;
+    }
+ }

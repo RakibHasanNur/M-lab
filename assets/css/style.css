@@ -1,0 +1,380 @@
+/* Global CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding-top: 80px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.btn:hover {
+    color: #fff;
+}
+/* Global CSS End */
+
+/* Header CSS Start */
+header{
+    background-image: url(../img/shape-1.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 52%;
+    height: 100vh;
+}
+header .navbar {
+    top: 10px;
+}
+header .nav-item{
+    padding: 0 12px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+header .banner-social-icon a{
+    color: #fff;
+}
+header .banner-hero-area{
+    padding-top: 15%;
+    position: absolute;
+}
+
+header .banner-hero-area img{
+    position: relative;   
+    left: -6%;   
+    width: 12%;
+}
+
+header .banner-hero-area h1{
+    font-size: 62px;
+    padding-right: 28%;
+    font-weight: 700;
+}
+
+header .banner-hero-area h1 span{
+    font-size: 55px;
+    color: #8b8b8b;
+}
+
+header .banner-hero-area p{
+    font-size: 26.17px;
+    font-weight: 100;
+    padding: 18px 0;
+    color: #717171;
+    margin: 0;
+}
+header .banner-hero-area .button{
+   
+}
+header .banner-hero-area .button .btn {
+    text-decoration: none;
+    color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    padding: 10px 50px;
+    font-weight: 100;
+    font-size: 16px;
+}
+header .banner-hero-area .button .btn-cta{
+    background-image: linear-gradient(45deg, #f5ce62 20%, #e85a19 100%,transparent);
+    border-radius: 0;
+}
+header .banner-hero-area .button .btn:hover{
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(45deg,  #e85a19 30%, #f5ce62 100%,transparent);
+}
+
+header .banner-hero-area2{
+  
+}
+
+header .banner-hero-area2 img{
+    margin-top: 12px;
+    width: 70%;
+    margin-left: 20%;
+}
+/* Header CSS End */
+
+/* Section-1 CSS Start */
+.section-1{
+    background: url(../img/section-1-Polygon-2.png) , url(../img/section-2-polygon-1.png);
+    background-position: top 32% left ,top 22% right 10%;
+    background-repeat: no-repeat;
+    background-size: 4%;
+}
+
+.section-1 h2{
+    font-size: 56.12px;
+    text-align: center;
+    margin-bottom: 8%;
+    font-weight: 700;
+}
+
+.section-1 .box-1{
+    box-shadow: 0px 0px 12px 2px #b4b4b454;
+    padding: 20px;
+    border-radius: 15px;
+}
+.section-1  .icon-1{}
+.section-1 .icon-2{
+    padding: 10px 0;
+}
+.section-1 .icon-3{
+    padding: 6px 0;
+}
+.section-1 .box-1 h3{
+    margin: 18px 0;
+    font-size: 19.8px;
+    font-weight: 700;
+}
+.section-1 .box-1 p{
+    color: #717171;
+    font-size: 25.52px;
+    font-weight: 100;
+}
+.section-1 .box-1-color h3{
+    margin: 18px 0;
+    font-size: 19.8px;
+    font-weight: 700;
+}
+.section-1 .box-1-color p{
+    color: #fff;
+    font-size: 25.52px;
+    font-weight: 100;
+}
+.section-1 .box-1-color{
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: none;
+    background: linear-gradient(-45deg, #ff6b6d 20%, #ffb771 100%,transparent);
+    animation:change 3s ease-in-out infinite;
+    background-size: 600% 100%;
+}
+.section-1 .button{
+    text-align: center;
+    margin: 5% 0;
+}
+.btn {
+    text-decoration: none;
+    color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    padding: 10px 35px;
+    font-weight: 100;
+    font-size: 16px;
+}
+.btn-ghost{
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(45deg,  #ff6b6d 20%, #ffb771 100%,transparent);
+    border-radius: 0;
+}
+.btn-ghost:hover{
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(45deg,  #ffb771, #ff6b6d 100%,transparent);
+}
+
+/* Section-1 CSS End */
+
+/* Section-2 CSS Start */
+.section-2{
+    background: url(../img/section-2-Polygon-1.png) , url(../img/section-2-Polygon-2.png), url(../img/section-2-Polygon-3.png);
+    background-position: top 12% left 6%,bottom 20% right 8%,bottom right;
+    background-repeat: no-repeat;
+    background-size: 5%;
+}
+
+.section-2 .video-box{
+    width: 80%;
+    float: right;
+    position: relative;
+}
+
+.section-2 .video-box .play-btn{
+    background-image: linear-gradient(45deg,  #ff6b6d 20%, #ffb771 100%,transparent);
+    color: #fff;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+}
+.section-2 .video-box .play-btn i{
+    line-height: 100px;
+    margin-left: 10px;
+}
+.section-2 .video-box .play-btn::before,.section-2 .video-box .play-btn::after{
+    content: "";
+    position: absolute;
+    border: 10px solid #ff6b6d;
+   
+    border-radius: 50%;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+    
+}
+.section-2 .video-box .play-btn::after{
+    animation-delay: .5s;
+}
+
+.section-2 .section-2-hero-area{
+    margin-top: 56px;
+}
+.section-2 .section-2-hero-area h2{
+    font-size: 52.5px;
+    font-weight: 700;
+    padding-right: 35%;
+}
+.section-2 .section-2-hero-area p{
+    font-size: 18.2px;
+    color: #717171;
+    padding-right: 12%;
+}
+/* Section-2 CSS End */
+
+/* Section-3 CSS Start */
+.section-3{
+    background: url(../img/section-3-Polygon-1.png);
+    background-position: bottom left 3%;
+    background-repeat: no-repeat;
+    background-size: 3%;
+}
+
+.section-3 h2{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    padding: 0 20%;
+    line-height: 1.4;
+    margin-bottom: 10%;
+}
+
+.section-3 .section-3-hero-area{
+    margin-top: 39px;
+}
+
+.section-3 .section-3-hero-area p{
+    font-size: 18px;
+    color: #717171;
+}
+
+.section-3 .item{
+    
+}
+
+.section-3 .item .card{
+    border: none;
+    margin: 5px;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgb(94,104,121, .288);
+    border-radius: 10px;
+    background: #fefefe;
+    height: 260px;
+    width: 100%;
+}
+
+.section-3 .item .card img{
+    width: 35%;
+    padding: 0 2px;
+}
+
+.section-3 .item .card h3{
+    font-size: 20px;
+    padding: 15px 1px;
+    color: #ff6b6d;
+}
+
+.section-3 .item .card p{
+    padding: 0 5px 15px;
+}
+
+/* Section-3 CSS End */
+
+/* Section-4 CSS Start */
+.section-4{
+    background: url(../img/section-3-Polygon-1.png) , url(../img/section-3-Polygon-4.png), url(../img/section-3-Polygon-2.png);
+    background-position: bottom 20% left 15%,bottom 20% right,top 12% left;
+    background-repeat: no-repeat;
+    background-size: 4%;
+    padding-bottom: 10%;
+}
+
+.section-4 h2{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    padding: 0 10%;
+    margin-bottom: 30px;
+}
+
+.section-4 form{}
+
+.section-4 form .form-group{}
+
+.section-4 .form-inline{
+    display: block;
+    text-align: center;
+}
+
+.section-4 .form-inline .form-control{
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 3px 13px 1px #ccc;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2% 4%;
+}
+
+.section-4 .form-inline button{
+    border-radius: 25px;
+    background-image: linear-gradient(45deg,  #ff6b6d 20%, #ffb771 100%,transparent);
+    margin: 3%;
+}
+
+.section-4 ::placeholder {
+    color: #ff6b6d;
+    opacity: 1;
+  }
+/* Section-4 CSS End */
+
+/* Footer CSS Start */
+footer{
+    background-image: linear-gradient(45deg,  #ff6b6d 40%, #ffb771 100% ,transparent);
+    padding: 80px 0;
+}
+
+footer .footer-logo{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer .footer-box{}
+
+footer .footer-box h2{
+    color: #fff;
+    font-weight: 600;
+    margin: 30px 20px;
+    font-size: 30px;
+}
+
+footer .footer-box .list-group{}
+
+footer .footer-box .list-group .list-group-item{
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+footer .footer-box  .footer-icon{
+    color: #fff;
+    padding: 0 10%;
+    font-size: 18px;
+}
+/* Footer CSS End */
